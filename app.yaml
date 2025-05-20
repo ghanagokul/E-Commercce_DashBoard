@@ -1,0 +1,11 @@
+runtime: python311  # Or python39, python310 as supported
+entrypoint: gunicorn -b :$PORT app:server
+
+
+instance_class: F2  # Optional: Change for higher performance
+env_variables:
+  PYTHONUNBUFFERED: '1'
+
+handlers:
+- url: /.*
+  script: auto
