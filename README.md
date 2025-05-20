@@ -6,7 +6,7 @@ This project demonstrates an end-to-end Big Data pipeline for ecommerce analytic
 
 ## 📌 Overview
 
-- 📦 Data Source: [Kaggle Ecommerce Dataset](https://www.kaggle.com/)
+- 📦 Data Source: [Kaggle Ecommerce Dataset]([https://www.kaggle.com/](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce))
 - 🚀 Platform: Google Cloud Platform (GCP)
 - 🔧 ETL Framework: PySpark
 - 🗃️ Storage: Google Cloud Storage (GCS)
